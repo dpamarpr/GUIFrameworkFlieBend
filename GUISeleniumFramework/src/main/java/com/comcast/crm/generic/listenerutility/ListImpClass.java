@@ -1,13 +1,9 @@
 package com.comcast.crm.generic.listenerutility;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.Date;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.support.events.EventFiringWebDriver;
 import org.testng.ISuite;
 import org.testng.ISuiteListener;
 import org.testng.ITestContext;
@@ -21,7 +17,6 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 import com.comcast.crm.generic.basetest.BaseClass;
 import com.comcast.crm.generic.webdriverutility.UtilityClassObject;
-import com.mysql.cj.x.protobuf.MysqlxResultset.FetchSuspendedOrBuilder;
 
 public class ListImpClass implements ITestListener , ISuiteListener{
 	public ExtentReports report;
