@@ -1,4 +1,4 @@
-package com.comcast.crm.generic.basetest;
+package com.FlieBend.BFSI.generic.basetest;
 
 import java.sql.SQLException;
 
@@ -16,13 +16,13 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
-import com.comcast.crm.generic.databaseutlity.DataBaseUtility;
-import com.comcast.crm.generic.fileutility.ExcelUtility;
-import com.comcast.crm.generic.fileutility.FileUtility;
-import com.comcast.crm.generic.webdriverutility.JavaUtility;
-import com.comcast.crm.generic.webdriverutility.UtilityClassObject;
-import com.comcast.crm.objectrepositoryutility.Home;
-import com.comcast.crm.objectrepositoryutility.LoginPage;
+import com.FlieBend.BFSI.generic.databaseutlity.DataBaseUtility;
+import com.FlieBend.BFSI.generic.fileutility.ExcelUtility;
+import com.FlieBend.BFSI.generic.fileutility.FileUtility;
+import com.FlieBend.BFSI.generic.webdriverutility.JavaUtility;
+import com.FlieBend.BFSI.generic.webdriverutility.UtilityClassObject;
+import com.FlieBend.BFSI.objectrepositoryutility.HomePage;
+import com.FlieBend.BFSI.objectrepositoryutility.LoginPage;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -90,7 +90,7 @@ public class BaseClass {
 		@AfterMethod(groups = {"smokeTest", "regressionTest"})
 		public void configAM() {
 			System.out.println("=logout=");
-			Home hp = new Home(driver);
+			HomePage hp = new HomePage(driver);
 			hp.logout();
 		}
 		

@@ -2,7 +2,7 @@ package com.comcast.crm.contacttest;
 
 import org.testng.annotations.Test;
 
-import com.comcast.crm.generic.basetest.BaseClass;
+import com.FlieBend.BFSI.generic.basetest.BaseClass;
 /**
  * 
  * @author Deepak

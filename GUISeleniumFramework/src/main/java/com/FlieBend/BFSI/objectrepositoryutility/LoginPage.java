@@ -1,4 +1,4 @@
-package com.comcast.crm.objectrepositoryutility;
+package com.FlieBend.BFSI.objectrepositoryutility;
 
 import java.time.Duration;
 
@@ -7,7 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-import com.comcast.crm.generic.webdriverutility.WebDriverUtility;
+import com.FlieBend.BFSI.generic.webdriverutility.WebDriverUtility;
 
 /**
  * 
